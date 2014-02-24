@@ -17,7 +17,7 @@
  * List of AROs (Class aliases)
  * Order is important! Parent to Children
  */
-Configure::write('AclManager.aros', array('Role', 'User'));
+Configure::write('AclManager.aros', array('Grupo', 'Usuario'));
 
 /**
  * Limit used to paginate AROs
@@ -38,7 +38,7 @@ Configure::write('AclManager.aros', array('Role', 'User'));
  * Turn off when using CSS
  */
 Configure::write('AclManager.uglyIdent', true);
-				
+
 /**
  * Actions to ignore when looking for new ACOs
  * Format: 'action', 'Controller/action' or 'Plugin.Controller/action'
