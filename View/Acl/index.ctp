@@ -1,5 +1,6 @@
 <?php
 $this->set( 'title_for_layout', "Administrador de permisos" );
+$this->set( 'title_icon', 'i-rulers' );
 $this->Html->addCrumb( 'Permisos', array( 'plugin' => 'acl_manager', 'controller' => 'acl', 'action' => 'index' ) );
 ?>
 <h3>Administrador de permisos <?php echo Configure::read('AclManager.version'); ?></h3>

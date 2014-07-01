@@ -1,5 +1,6 @@
 <?php
 $this->set( 'title_for_layout', "Permisos para ".$aroAlias );
+$this->set( 'title_icon', 'i-rulers' );
 $this->Html->addCrumb( 'Pemisos', array( 'plugin' => 'acl_manager', 'controller' => 'acl', 'action' => 'index' ) );
 $this->Html->addCrumb( $aroAlias, array( 'plugin' => 'acl_manager', 'controller' => 'acl', 'action' => 'permissions', 'aro' => $aroAlias ) );
 ?>
